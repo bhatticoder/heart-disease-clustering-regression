@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary scraping / debug files
+*.tmp
+temp/
+extracted/
+table_*.html
+nature_article.html
+sec*.txt
+extract_*.js
+check_*.js
+dump_*.js
+find_*.js
+parse_*.js
+get_urls.js
+sort_wheels.js
+download_*.js
+fetch_all_wheels.js
+generate_notebook.js
+wheels.json
+wheels_sorted.json
+
+# Root duplicate files (kept inside paper/ and data/raw/)
+/processed.cleveland.data
+/s41598-026-40626-z.pdf
