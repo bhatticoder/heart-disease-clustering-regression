@@ -177,3 +177,4 @@ class KMeansRandomForestHybrid(BaseEstimator, ClassifierMixin):
                     else:
                         probs[idx] = p
             return probs
+

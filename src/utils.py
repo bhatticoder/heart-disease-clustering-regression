@@ -146,3 +146,4 @@ def plot_roc_curves(y_true, model_probs, output_path="results/figures/roc_curves
     plt.savefig(output_path, dpi=300)
     plt.close()
     print(f"Saved ROC curves: {output_path}")
+

@@ -92,3 +92,4 @@ if __name__ == "__main__":
     df, X, y = prepare_dataset()
     print(f"Loaded dataset: {df.shape[0]} samples, {X.shape[1]} features")
     print(f"Target distribution: {y.value_counts().to_dict()} (0: Healthy, 1: Diseased)")
+

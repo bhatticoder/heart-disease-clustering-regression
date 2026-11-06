@@ -131,3 +131,4 @@ def build_comparison_table(results_dict):
         }
         rows.append(row)
     return pd.DataFrame(rows)
+

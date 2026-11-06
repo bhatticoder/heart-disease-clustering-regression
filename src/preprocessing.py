@@ -86,3 +86,4 @@ def add_cluster_features(X, kmeans):
         X_augmented = np.hstack([X_augmented, labels_col, dist_cols])
 
     return X_augmented
+
